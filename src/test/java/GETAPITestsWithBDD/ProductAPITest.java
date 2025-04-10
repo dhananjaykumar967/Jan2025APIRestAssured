@@ -47,6 +47,9 @@ public class ProductAPITest {
         }
     }
 
+    /**
+     * This test is to showcase the import static org.hamcrest.Matchers one of the capability
+     * */
     @Test
     public void getProductCountTest() {
         RestAssured.baseURI = "http://fakestoreapi.com";
